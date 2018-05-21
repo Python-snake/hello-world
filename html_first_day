@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 285px;
+            height: 310px;
+            border-top: 1px solid #2a6496;
+            border-bottom: 1px solid #2a6496;
+        }
+        .box div{
+            height: 40px;
+            width: 285px;
+        }
+        .box h3 {
+            float: left;
+            font-size: 16px;
+            font-family: "Microsoft YaHei";
+            color:red;
+            margin:0px;
+            font-weight: normal; /* 设置文字不加粗 */
+            line-height: 40px;
+        }
+        .box a {
+            float:right;
+            font-size: 12px;
+            font-family: "Microsoft YaHei";
+            color: #172c45;
+            margin:0px;
+            line-height: 40px; /* 通过行高来设置文字垂直居中 */
+            text-decoration: none;
+        }
+        .box p {
+            margin: 0px;
+            font-size: 12px;
+            font-family:"Microsoft YaHei";
+            color: gold;
+            line-height: 20px;
+            margin-top: 10px;
+            text-indent: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>
+            <h3>今日头条</h3>
+            <a href="#">更多&gt;&gt;</a>
+        </div>
+        <img src="images/banner.jpg" alt="banner">
+        <p>人工智能（Artificial Intelligence），英文缩写为AI。
+           它是研究、开发用于模拟、延伸和扩展人的智能的理论、
+           方法、技术及应用系统的一门新的技术科学。人工智能是计
+           算机科学的一个分支，它企图了解智能的实质，并生产出一
+           种新的能以人类智能相似的方式做出反应的智能机器，该领
+           域的研究包括机器人、语言识别、图像识别、自然语言处理
+           和专家系统等。
+        </p>
+    </div>
+
+</body>
+</html>
